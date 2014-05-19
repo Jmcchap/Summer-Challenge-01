@@ -1,0 +1,146 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url(http://i.imgur.com/ayBJ1n2.png);
+}
+
+.Intro{
+    background-image: url(http://i.imgur.com/hDW6SIm.png);
+    color:white;
+    height:175px;
+    text-shadow: 2px 2px #000999;
+    margin-left:15%;
+    margin-right:15%;
+    border-radius: 3px 3px 0 0;
+}
+
+p{
+    font-size: 18px;
+}
+
+.Intro h1{
+    font-family: 'Monofett';
+    margin: 0% 0 0 1%;
+    font-size:6em;
+    padding:3% 0;
+    
+}
+
+.help{
+    position: absolute;
+    background-color:#d8d8d8  ;    
+    height:auto;
+    font-family:oxygen, cursive;
+    padding: 3%;
+    box-sizing: border-box;
+    margin:0 0 0 65%;
+    width: 20%;
+    text-align: center;
+    color:black;
+}
+
+.help p{
+    text-align: left;
+   margin-top:2.5em .5em; 
+    font-family: "Nixie One";
+    font-weight:700;
+}
+
+h2{
+    font-size:1.5em;
+    color:#A64D00;
+    font-family:"Flamenco", serif;
+    font-weight: 900;
+    padding:0;
+    margin:0;
+}
+
+.Intro p{
+    font-family:"oxygen", sans-serif;
+    display:block;
+    text-align: center;
+    padding:1em 1em;
+   margin-bottom:0;
+}
+
+.weeks{
+    width:100%;
+    height:100%;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #eeeee6;
+    justify-content: space-around;
+    margin:0;
+    padding:1em 3.96em;
+    flex-wrap: wrap;
+}
+
+
+a{
+    
+}
+
+
+.flex-item{
+    display:inline-block;
+    background-color:white;
+    border:5px solid #9C284F;
+    margin:1em;
+    flex-basis: 15em;
+    height:15em;
+    cursor: pointer;
+    font-family:"Flamenco", "Nixie One", cursive;
+    
+    
+}
+
+.day{
+    text-align:center;
+    list-style-type: none;
+    padding: 0;
+    margin:5.1em;
+    display:none;
+    
+}
+
+.flex-item:hover .day{
+    display:block;
+}
+
+.flex-item:hover .number{
+    display:none;
+}
+
+.number{
+    height:100%;
+    width:100%;
+    color:#9C284F;
+    
+}
+
+h3{
+    display:block;
+    text-align:center;
+    margin-top: 30%;
+    font-size: 5em;
+}
+
+.content{
+    background-color:white;
+    height:100%;
+    width:50%;
+    margin:0 0 0 15%;
+    float:left;
+    padding:0;
+    
+    
+}
+
+.about{
+    border-top:1px solid black;
+    margin-top:2em;
+    padding-top:1em;
+    font-family:"Flamenco";
+    color: #00004c;
+    height:100%;
+}
